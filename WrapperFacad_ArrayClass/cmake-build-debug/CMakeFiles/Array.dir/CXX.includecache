@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Array/Array.cpp
+Array.h
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Array/Array.h
+
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Array/Array.h
+cstring
+-
+iostream
+-
+stdexcept
+-
+Array.inl
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Array/Array.inl
+
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Array/Array.inl
+

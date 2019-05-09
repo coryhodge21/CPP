@@ -1,0 +1,46 @@
+// $Id: assignment3.mpc 378 2010-02-07 22:09:38Z hillj $
+
+project (assignment3) {
+  exename = assignment3
+  install = .
+ 
+  specific (make, gnuace) {
+    compile_flags += -g -std=c++11
+  }
+
+  Source_Files {
+    main.cpp
+    Receiver.cpp
+    Invoker.cpp
+    Command.cpp
+    AddCmd.cpp
+    ConcreteFactories.cpp
+    ConcreteProducts.cpp
+    DivCmd.cpp
+    MulCmd.cpp
+    SubCmd.cpp
+    Parenthesis.cpp
+  }
+
+  Header_Files {
+
+      Abstract_Command.h
+      Abstract_Factory.h
+      Abstract_Product.h
+      Receiver.h
+      Invoker.h
+      Command.h
+      AddCmd.h
+      ConcreteFactories.h
+      ConcreteProducts.h
+      DivCmd.h
+      MulCmd.h
+      SubCmd.h
+      Parenthesis.h
+  }
+
+  Template_Files {
+    ArrayBase.h
+    Stack.h
+  }
+}

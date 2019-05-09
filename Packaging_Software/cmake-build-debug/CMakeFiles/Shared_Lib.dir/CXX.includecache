@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Shared_Lib/main.cpp
+iostream
+-
+shared_exe.h
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Shared_Lib/shared_exe.h
+
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Shared_Lib/my_shared_lib.cpp
+my_shared_lib.h
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Shared_Lib/my_shared_lib.h
+iostream
+-
+
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Shared_Lib/my_shared_lib.h
+string
+-
+my_shared_lib_export.h
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Shared_Lib/my_shared_lib_export.h
+
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Shared_Lib/my_shared_lib_export.h
+
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Shared_Lib/shared_exe.cpp
+shared_exe.h
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Shared_Lib/shared_exe.h
+my_shared_lib.h
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Shared_Lib/my_shared_lib.h
+
+/Users/coryhodge/Documents/Master/Programming/_github_IU/Shared_Lib/shared_exe.h
+

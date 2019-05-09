@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cs363_spring2019_assignment4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cs363_spring2019_assignment4">
+				<Option output="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/cs363_spring2019_assignment4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 cs363_spring2019_assignment4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cs363_spring2019_assignment4/fast">
+				<Option output="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/cs363_spring2019_assignment4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 cs363_spring2019_assignment4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Add_Node.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Add_Node.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/ArrayBase.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Binary_Node.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Binary_Node.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Builder.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Builder.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Calculator.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Calculator.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Div_Node.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Div_Node.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Expression_Visitor.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Expression_Visitor.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Mod_Node.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Mod_Node.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Mul_Node.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Mul_Node.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Node.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Node.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Num_Node.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Num_Node.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Parenthesis_Nodes.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Parenthesis_Nodes.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Queue.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Special_Fx_Nodes.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Special_Fx_Nodes.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Sub_Node.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Sub_Node.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Var_Node.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Var_Node.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/Visitor.h">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/main.cpp">
+			<Option target="cs363_spring2019_assignment4"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/calculator_cs360_hw4/cs363-spring2019-assignment4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

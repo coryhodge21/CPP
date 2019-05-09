@@ -1,0 +1,115 @@
+#----------------------------------------------------------------------------
+#       Macros
+#----------------------------------------------------------------------------
+CC            = gcc
+CXX           = g++
+LD            = $(CXX) $(CCFLAGS) $(CPPFLAGS)
+AR            = ar
+PICFLAGS      = -fPIC
+CPPFLAGS      = $(PICFLAGS) $(GENFLAGS) -g -std=c++11 -D_REENTRANT
+OBJEXT        = .o
+OUTPUT_OPTION = -o "$@"
+COMPILE.c     = $(CC) $(CFLAGS) $(CPPFLAGS) -c
+COMPILE.cc    = $(CXX) $(CCFLAGS) $(CPPFLAGS) -c
+LDFLAGS       = -L"."
+CCC           = $(CXX)
+MAKEFILE      = Makefile.assignment4
+DEPENDENCIES  = .depend.$(MAKEFILE)
+BTARGETDIR    = ./
+BIN           = $(BTARGETDIR)assignment4$(EXESUFFIX)$(EXEEXT)
+CAT           = cat
+MV            = mv -f
+RM            = rm -rf
+CP            = cp -p
+NUL           = /dev/null
+MKDIR         = mkdir -p
+TESTDIRSTART  = test -d
+TESTDIREND    = ||
+TOUCH         = touch
+EXEEXT        = 
+LIBPREFIX     = lib
+LIBSUFFIX     = 
+GENFLAGS      = -O
+LDLIBS        = -ldl $(subst lib,-l,$(sort $(basename $(notdir $(wildcard /usr/lib/librt.so /lib/librt.so))))) -lpthread
+OBJS          = main$(OBJEXT) Calculator$(OBJEXT) Node$(OBJEXT) Num_Node$(OBJEXT) Binary_Node$(OBJEXT) Add_Node$(OBJEXT) Sub_Node$(OBJEXT) Mul_Node$(OBJEXT) Div_Node$(OBJEXT) Mod_Node$(OBJEXT) Parenthesis_Nodes$(OBJEXT) Var_Node$(OBJEXT) Special_Fx_Nodes$(OBJEXT) Builder$(OBJEXT) Expression_Visitor$(OBJEXT)
+SRC           = main.cpp Calculator.cpp Node.cpp Num_Node.cpp Binary_Node.cpp Add_Node.cpp Sub_Node.cpp Mul_Node.cpp Div_Node.cpp Mod_Node.cpp Parenthesis_Nodes.cpp Var_Node.cpp Special_Fx_Nodes.cpp Builder.cpp Expression_Visitor.cpp
+LINK.cc       = $(LD) $(LDFLAGS)
+EXPORTFLAGS   = 
+DEPLIBS       = $(foreach lib, , $(foreach libpath, ., $(wildcard $(libpath)/lib$(lib).a)))
+
+#----------------------------------------------------------------------------
+#       Local targets
+#----------------------------------------------------------------------------
+
+all: $(BIN)
+
+$(BIN): $(OBJS) $(DEPLIBS)
+	@$(TESTDIRSTART) "$(BTARGETDIR)" $(TESTDIREND) $(MKDIR) "$(BTARGETDIR)"
+	$(LINK.cc) $(OBJS) $(LDLIBS) $(OUTPUT_OPTION)
+
+generated: $(GENERATED_DIRTY)
+	@-:
+
+main$(OBJEXT): main.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) main.cpp
+
+Calculator$(OBJEXT): Calculator.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Calculator.cpp
+
+Node$(OBJEXT): Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Node.cpp
+
+Num_Node$(OBJEXT): Num_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Num_Node.cpp
+
+Binary_Node$(OBJEXT): Binary_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Binary_Node.cpp
+
+Add_Node$(OBJEXT): Add_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Add_Node.cpp
+
+Sub_Node$(OBJEXT): Sub_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Sub_Node.cpp
+
+Mul_Node$(OBJEXT): Mul_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Mul_Node.cpp
+
+Div_Node$(OBJEXT): Div_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Div_Node.cpp
+
+Mod_Node$(OBJEXT): Mod_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Mod_Node.cpp
+
+Parenthesis_Nodes$(OBJEXT): Parenthesis_Nodes.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Parenthesis_Nodes.cpp
+
+Var_Node$(OBJEXT): Var_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Var_Node.cpp
+
+Special_Fx_Nodes$(OBJEXT): Special_Fx_Nodes.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Special_Fx_Nodes.cpp
+
+Builder$(OBJEXT): Builder.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Builder.cpp
+
+Expression_Visitor$(OBJEXT): Expression_Visitor.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Expression_Visitor.cpp
+
+clean:
+	-$(RM) $(OBJS)
+
+realclean: clean
+	-$(RM) $(BIN)
+
+check-syntax:
+	$(COMPILE.cc) $(EXPORTFLAGS) -Wall -Wextra -pedantic -fsyntax-only $(CHK_SOURCES)
+
+#----------------------------------------------------------------------------
+#       Dependencies
+#----------------------------------------------------------------------------
+
+
+depend:
+	-$(MPC_ROOT)/depgen.pl  $(CFLAGS) $(CCFLAGS) $(CPPFLAGS) -f $(DEPENDENCIES) $(SRC) 2> $(NUL)
+
+-include $(DEPENDENCIES)

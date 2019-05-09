@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Cmd_AbsFactory_StackCalc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cmd_AbsFactory_StackCalc">
+				<Option output="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Cmd_AbsFactory_StackCalc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cmd_AbsFactory_StackCalc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cmd_AbsFactory_StackCalc/fast">
+				<Option output="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Cmd_AbsFactory_StackCalc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cmd_AbsFactory_StackCalc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/Abstract_Command.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/Abstract_Factory.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/Abstract_Product.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/AddCmd.cpp">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/AddCmd.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/ArrayBase.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/Command.cpp">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/Command.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/ConcreteFactories.cpp">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/ConcreteFactories.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/ConcreteProducts.cpp">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/ConcreteProducts.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/DivCmd.cpp">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/DivCmd.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/Invoker.cpp">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/Invoker.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/MulCmd.cpp">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/MulCmd.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/Parenthesis.cpp">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/Parenthesis.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/Receiver.cpp">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/Receiver.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/Stack.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/SubCmd.cpp">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/SubCmd.h">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/main.cpp">
+			<Option target="Cmd_AbsFactory_StackCalc"/>
+		</Unit>
+		<Unit filename="/Users/coryhodge/Documents/Master/Programming/_github_IU/Cmd_AbsFactory_StackCalc/Cmd_AbsFactory_StackCalc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

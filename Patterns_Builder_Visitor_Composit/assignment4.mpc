@@ -1,0 +1,57 @@
+//assignment4.mpc
+
+project (assignment4) {
+  exename = assignment4
+  install = .
+ 
+  specific (make, gnuace) {
+    compile_flags += -g -std=c++11
+  }
+
+  Source_Files {
+    main.cpp
+    Calculator.cpp
+    Node.cpp
+    Num_Node.cpp
+    Binary_Node.cpp
+    Add_Node.cpp
+    Sub_Node.cpp
+    Mul_Node.cpp
+    Div_Node.cpp
+    Mod_Node.cpp
+    Parenthesis_Nodes.cpp
+    Var_Node.cpp
+    Special_Fx_Nodes.cpp
+    Builder.cpp
+    Expression_Visitor.cpp
+  }
+
+
+  Header_Files {
+
+     Calculator.h
+     Node.h
+     Num_Node.h
+     Binary_Node.h
+     Add_Node.h
+     Sub_Node.h
+     Mul_Node.h
+     Div_Node.h
+     Mod_Node.h
+     Parenthesis_Nodes.h
+     Var_Node.h
+     Special_Fx_Nodes.h
+     Builder.h
+     Visitor.h
+     Expression_Visitor.h
+  }
+
+  Template_Files {
+    ArrayBase.h
+    Queue.h
+  }
+}
+
+
+
+
